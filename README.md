@@ -8,7 +8,7 @@
 
 This repository accompanies *Decision Updating in LLMs: A Survey*. It organizes research on evidence-sensitive changes to factual judgments, recommendations, plans, expressed confidence, and information-seeking behaviour. Maintaining a valid decision is also an appropriate outcome when new information does not justify changing it.
 
-The repository currently contains **47 distinct literature records**, organized below as a representative collection. This is a starting collection for the repository, not a claim that the survey's complete bibliography has been released.
+The repository currently contains **49 distinct literature records**, organized below as a representative collection. This is a starting collection for the repository, not a claim that the survey's complete bibliography has been released.
 
 Missing a relevant paper or found an error? [Open an issue](https://github.com/AdepojuJeremy/Decision-Updating-Survey/issues) or submit a pull request with the primary publication link.
 
@@ -96,6 +96,8 @@ Belief-R, ClashEval, and WikiContradict above provide complementary evaluation s
 - **[Chain-of-Verification Reduces Hallucination in Large Language Models](https://aclanthology.org/2024.findings-acl.212/)**. Dhuliawala et al., ACL 2024. Independent verification questions and answer revision.
 - **[Trusting Your Evidence: Hallucinate Less with Context-aware Decoding](https://aclanthology.org/2024.naacl-short.69/)**. Shi et al., NAACL 2024. Decoding that increases faithfulness to supplied context; context adherence alone does not establish truth.
 - **[Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models](https://aclanthology.org/2025.acl-long.1476/)**. Wang et al., ACL 2025. Source-aware consolidation under imperfect retrieval.
+- **[ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation](https://openreview.net/forum?id=CyUq9D99vE)**. Huang et al., NeurIPS 2025. Suppresses mid-to-deep FFNs that are over-activated in unfaithful outputs so the model follows retrieved evidence that contradicts its parametric knowledge; introduces the CoFaithfulQA benchmark.
+- **[SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation](https://arxiv.org/abs/2606.27786)**. Li et al., arXiv 2026. A lightweight policy adaptively regulates the contribution of FFN-mediated parametric knowledge at each decoding step, with the backbone frozen, to mitigate context-memory conflicts.
 - **[Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/abs/2310.11511)**. Asai et al., arXiv 2023. Adaptive retrieval and critique as supporting grounding capabilities.
 - **[Simple synthetic data reduces sycophancy in large language models](https://arxiv.org/abs/2308.03958)**. Wei et al., arXiv 2023. Synthetic-data fine-tuning to reduce sycophancy.
 

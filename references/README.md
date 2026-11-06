@@ -1,6 +1,6 @@
 # Literature catalogue
 
-This catalogue contains 47 distinct primary-source records. It is representative rather than exhaustive. Records linked to arXiv use the first-posting year; publisher-linked records use the publisher year. A later conference version may use a different year.
+This catalogue contains 49 distinct primary-source records. It is representative rather than exhaustive. Records linked to arXiv use the first-posting year; publisher-linked records use the publisher year. A later conference version may use a different year.
 
 [BibTeX](references.bib) · [Structured records](papers.json)
 
@@ -473,3 +473,23 @@ This catalogue contains 47 distinct primary-source records. It is representative
 **Primary source:** https://arxiv.org/abs/2505.06120
 
 **BibTeX key:** `decision_survey_lost`
+
+## ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
+
+**Authors:** Pengcheng Huang; Zhenghao Liu; Yukun Yan; Haiyan Zhao; Xiaoyuan Yi; Hao Chen; Zhiyuan Liu; Maosong Sun; Tong Xiao; Ge Yu; Chenyan Xiong.
+
+**Edition:** Advances in Neural Information Processing Systems (NeurIPS 2025), 2025. Conference record (OpenReview).
+
+**Primary source:** https://openreview.net/forum?id=CyUq9D99vE
+
+**BibTeX key:** `decision_survey_parammute`
+
+## SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation
+
+**Authors:** Ruochang Li; Pengcheng Huang; Zhenghao Liu; Yukun Yan; Huiyuan Xie; Yu Gu; Ge Yu; Maosong Sun.
+
+**Edition:** arXiv preprint, 2026. First arXiv posting.
+
+**Primary source:** https://arxiv.org/abs/2606.27786
+
+**BibTeX key:** `decision_survey_spark`
